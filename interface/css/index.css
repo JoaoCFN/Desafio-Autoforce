@@ -24,12 +24,18 @@ header{
 /*========================== Car presentation ========================== */
 
 /*========================== Car title ========================== */
-.navigation p{
+.navigation p,
+.navigation a{
     font-size: 0.8rem;
+
 }
 
-.navigation p span{
+.navigation a{
     text-decoration: underline;
+}
+
+.navigation a:hover{
+    color: var(--black);
 }
 
 /*========================== Car description ========================== */
