@@ -1,0 +1,40 @@
+@media screen and (max-width: 576px){
+    #wrapper-phone-button {
+        margin: 0.6rem auto 0.3rem auto;
+    }
+
+    .navbar-toggler{
+        font-size: 1.4rem;
+    }
+
+    .nav-item{
+        display: block;
+        margin: 0.3rem auto;
+    }
+
+    .nav-item a{
+        width: fit-content;
+    }
+
+    #bmw-video-player{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .auto-btn-circle{
+        right: 0.8rem;
+    }
+
+    .car-highlighs{
+        grid-template-columns: 9rem 9rem;
+        justify-content: unset;
+    }
+
+    .enterprise-info a{
+        display: block;
+    }
+
+    .copyright{
+        gap: 2rem;
+    }
+}

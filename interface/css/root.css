@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #3754E2;
+    --green: #4EC859;
+    --white: #ffffff;
+    --black: #000000;
+    --black-secondary: #333333;
+    --light-gray: #FAFAFA;
+    --dark-gray: #666666;
+
+    --font-primary: 'Open Sans';
+    --font-secondary: 'Ubuntu';
+    --font-terceary: 'Nunito Sans';
+}
+
+body{
+    background: var(--light-gray);
+}

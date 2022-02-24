@@ -1,0 +1,142 @@
+/* Background */
+.auto-bg-white{
+    background: var(--white);
+}
+
+.auto-bg-black{
+    background: var(--black);
+}
+
+.auto-bg-blue{
+    background: var(--blue);
+}
+
+.auto-bg-light-gray{
+    background: var(--light-gray);
+}
+
+/* Colors */
+.auto-color-blue{
+    color: var(--blue);
+}
+
+.auto-color-white{
+    color: var(--white);
+}
+
+.auto-color-black{
+    color: var(--black);
+}
+
+.auto-color-dark-gray{
+    color: var(--dark-gray);
+}
+
+.auto-color-black-secondary{
+    color: var(--black-secondary);
+}
+
+/* Buttons */
+.auto-btn-rounded{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    border-radius: 50px;
+    padding: .6rem 1.4rem;
+
+    border: none;
+    text-decoration: none;
+
+    font-size: .9rem;
+}
+
+.auto-btn-blue{
+    background: var(--blue);
+    color: var(--white);
+}
+
+.auto-btn-blue:hover{
+    color: var(--white);
+}
+
+.auto-btn-green{
+    background: var(--green);
+    color: var(--white);
+}
+
+.auto-btn-green:hover{
+    color: var(--white);
+}
+
+.auto-btn-circle{
+    position: absolute;
+    top: -4.2rem;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 2.5rem;
+    height: 2.5rem;
+
+    border-radius: 50%;
+    border: none;
+
+    font-size: 2rem;
+}
+
+.auto-btn-circle img{
+    width: 1rem;
+    height: auto;
+}
+
+/* Fonts */
+.auto-font-primary{
+    font-family: var(--font-primary);
+}
+
+.auto-font-secondary{
+    font-family: var(--font-secondary);
+}
+
+/* Weight */
+.auto-font-100{
+    font-weight: 100;
+}
+
+.auto-font-300{
+    font-weight: 300;
+}
+
+.auto-font-400{
+    font-weight: 400;
+}
+
+.auto-font-500{
+    font-weight: 500;
+}
+
+.auto-font-700{
+    font-weight: 700;
+}
+
+.auto-font-900{
+    font-weight: 900;
+}
+
+/* Flex */
+.auto-flex{
+    display: flex;
+}
+
+.auto-flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Margins */
+/* .auto-mb-3{
+    margin-bottom: 1rem;
+} */
