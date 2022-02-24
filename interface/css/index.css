@@ -1,4 +1,4 @@
-/* Header */
+/*========================== Header ========================== */
 header{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -21,9 +21,9 @@ header{
     margin-right: 1rem;
 }
 
-/* Car presentation */
+/*========================== Car presentation ========================== */
 
-/* Car title */
+/*========================== Car title ========================== */
 .navigation p{
     font-size: 0.8rem;
 }
@@ -32,7 +32,7 @@ header{
     text-decoration: underline;
 }
 
-/* Car description */
+/*========================== Car description ========================== */
 .car-description h3{
     display: flex;
     align-items: center;
@@ -51,14 +51,14 @@ header{
     background: #e5e5e5;
 }
 
-/* Car info */
+/*========================== Car info ========================== */
 .car-info .pipe{
     background: var(--black);
     height: 0.3rem;
     margin-top: 2.5rem;
 }
 
-/* Car highlight */
+/*========================== Car highlight ========================== */
 .car-highlighs{
     display: grid;
     justify-content: center;
@@ -72,13 +72,13 @@ header{
     gap: 0.8rem;
 }
 
-/* BMW Video */
+/*========================== BMW Video ========================== */
 #bmw-video-player{
     width: 100%;
     height: 80vh;
 }
 
-/* Footer */
+/*========================== Footer ========================== */
 .footer{
     position: relative;
 }
@@ -97,6 +97,7 @@ header{
     background: var(--dark-gray);
 }
 
+/*========================== Social midia ========================== */
 .social-midias{
     margin-bottom: 2rem;
 }
@@ -112,6 +113,7 @@ header{
     text-decoration: none;
 }
 
+/*========================== Enterprise ========================== */
 .enterprise-info div{
     display: flex;
     gap: 1rem;
@@ -122,6 +124,8 @@ header{
     color: var(--white);
 }
 
+
+/*========================== Copyright ========================== */
 .copyright h6{
     font-size: 0.8rem;
 }
